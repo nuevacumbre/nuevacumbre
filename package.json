@@ -1,13 +1,13 @@
 {
-  "name": "educator-js-codespace-template",
+  "name": "ejemplo-portafolio-nuevacumbre",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "Ejemplo de Portafolio",
   "source": "src/index.html",
   "homepage": "https://nuevacumbre.github.io",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://nuevacumbre.github.io/nuevacumbre'",
+    "build-gh": "parcel build --public-url https://nuevacumbre.github.io/nuevacumbre",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
