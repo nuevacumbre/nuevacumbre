@@ -123,3 +123,13 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+a.hover-link {
+  color: white;
+  text-decoration: none; /* Quita el subrayado */
+}
+
+a.hover-link:hover {
+  color: #FFD700; /* Cambia a color dorado al pasar el mouse */
+  text-decoration: underline; /* Subraya el texto al pasar el mouse */
+}

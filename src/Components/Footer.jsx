@@ -50,7 +50,8 @@ const Footer = (props) => {
         gap: "2.5rem",
         padding: "5rem 0 3rem",
         backgroundColor: primaryColor,
-        width: "100vw"
+        width: "100vw",
+        height: "30vw"
       }}
     >
       <div
@@ -114,7 +115,7 @@ const Footer = (props) => {
         )}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
-        Created by {name}
+        Creado por <a href="https://www.nuevacumbre.cl" className="hover-link"> {name} </a>
       </p>
     </div>
   );
@@ -134,7 +135,7 @@ Footer.propTypes = {
   name: PropTypes.string.isRequired,
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
-  youTube: PropTypes.string,
+  youTube: PropTypes.string
 
 };
 
