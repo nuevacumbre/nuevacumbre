@@ -39,10 +39,10 @@ const Home = ({ name, title }) => {
   );
 };
 
-Home.defaultProps = {
+/*Home.defaultProps = {
   name: "",
   title: "",
-};
+};*/
 
 Home.propTypes = {
   name: PropTypes.string.isRequired,

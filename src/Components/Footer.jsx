@@ -120,9 +120,9 @@ const Footer = (props) => {
   );
 };
 
-Footer.defaultProps = {
+/*Footer.defaultProps = {
   name: "",
-};
+};*/
 
 Footer.propTypes = {
   devDotTo: PropTypes.string,
