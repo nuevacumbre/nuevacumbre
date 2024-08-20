@@ -33,6 +33,7 @@ const siteProps = {
   medium: "",
   twitter: "nuevacumbre",
   youTube: "@Nuevacumbre",
+  iconoPDF: "",
 };
 
 const primaryColor = "#4E567E";
